@@ -21,7 +21,7 @@ Download spark 3.0 tar and untar it in "spark" folder in the current directory.
 
 sudo docker build -t ishani/cs_643_proj
 
-docker run ishani/cs_643_proj
+sudo docker run -v /root/ishani/ValidationDataset.csv:/root/ishani/ValidationDataset.csv  ishani/cs_643_proj /root/ishani/ValidationDataset.csv
 
 docker pull ishani/cs_643_proj:latest
 
